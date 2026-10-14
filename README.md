@@ -34,11 +34,11 @@ Os dados coletados e processados por esta estação têm aplicação direta em o
 | | SDA | GPIO 21 | SDA Padrão do ESP32 |
 
 ## 🚀 Roadmap e futuras implementações
-- [x] Leitura base de Temperatura, Umidade e Pressão Atmosférica.
-- [x] Processamento na borda: Cálculo matemático do Ponto de Orvalho (Magnus-Tetens).
-- [ ] **Expansão de Sensores:** Integração de Anemômetro (velocidade do vento) e Pluviômetro de báscula.
+- [x] Leitura base de temperatura, umidade e pressão atmosférica.
+- [x] Processamento na borda: Cálculo matemático do ponto de orvalho por meio da equação de Magnus-Tetens.
+- [ ] **Expansão de sensores:** Integração de anemômetro e pluviômetro de báscula.
 - [ ] **Telemetria IoT:** Envio de dados via protocolo MQTT para dashboards remotos.
-- [ ] **Integração de Dados:** Estruturação de pipelines (ex: Python) para análise espacial do microclima e integração com ferramentas GIS.
-- [ ] **Alimentação Autônoma:** Implementação de painel solar com gerenciador de carga (TP4056) para operação ininterrupta no campo.
+- [ ] **Integração de dados:** Estruturação de pipelines (ex: Python) para análise espacial do microclima e integração com ferramentas GIS.
+- [ ] **Alimentação autônoma:** Implementação de painel solar com gerenciador de carga (TP4056) para operação ininterrupta no campo.
 
 
