@@ -9,7 +9,7 @@
 English Version | [Portuguese Version](README.md)
 
 ## 📌 About the project
-**ClimaField** is a low-cost, high-precision weather station designed for monitoring agricultural microclimates at the field edge. Built on the ESP32 platform (C++), the project not only reads sensor data but also processes information locally (*Edge Computing*) to deliver ready-to-use metrics for on-field decision-making.
+**ClimaField** is a low-cost and high-precision weather station. Built on the ESP32 platform (C++), the project not only reads sensor data but also processes information locally (*Edge Computing*) to deliver ready-to-use metrics for on-field decision-making.
 
 The combination of electronic engineering and agronomic science allows the equipment to act as a critical tool for precision agriculture, providing vital data for water management and the safety and efficacy of field operations.
 
