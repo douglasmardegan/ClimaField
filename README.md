@@ -14,9 +14,9 @@ A união da engenharia eletrônica com a ciência agronômica permite que o equi
 
 ## 🌱 Relevância agronômica
 Os dados coletados e processados por esta estação têm aplicação direta em operações agrícolas avançadas:
-* **Janelas de pulverização:** O cálculo embutido do Ponto de Orvalho e o monitoramento da umidade são fundamentais para calcular o *Delta T*, métrica essencial para otimizar aplicações de defensivos (especialmente as realizadas por drones agrícolas), mitigando riscos de deriva e evaporação rápida das gotas.
+* **Janelas de pulverização:** O cálculo embutido do *ponto de orvalho* e o monitoramento da umidade são fundamentais para calcular o *Delta T*, métrica essencial para otimizar aplicações de defensivos (especialmente as realizadas por drones e aeronaves agrícolas), mitigando riscos de deriva e evaporação rápida das gotas.
 * **Prevenção e controle de doenças:** O monitoramento contínuo de temperatura e umidade relativa ajuda na modelagem de alertas para doenças fúngicas.
-* **Análise Termodinâmica:** Os dados de pressão atmosférica auxiliam na previsão de frentes frias e chuvas locais com maior assertividade do que grandes modelos meteorológicos regionais.
+* **Análise termodinâmica:** Os dados de pressão atmosférica auxiliam na previsão de frentes frias e chuvas locais com maior assertividade do que grandes modelos meteorológicos regionais.
 
 ## ⚙️ Arquitetura e hardware
 * **Microcontrolador:** ESP32 (Permite futura integração IoT via Wi-Fi/Bluetooth)
