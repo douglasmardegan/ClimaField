@@ -18,21 +18,6 @@ Os dados coletados e processados por esta estação têm aplicação direta em o
 * **Prevenção e controle de doenças:** O monitoramento contínuo de temperatura e umidade relativa ajuda na modelagem de alertas para doenças fúngicas.
 * **Análise termodinâmica:** Os dados de pressão atmosférica auxiliam na previsão de frentes frias e chuvas locais com maior assertividade do que grandes modelos meteorológicos regionais.
 
-## ⚙️ Arquitetura e hardware
-* **Microcontrolador:** ESP32 (Permite futura integração IoT via Wi-Fi/Bluetooth)
-* **Sensores atuais:**
-  * **DHT22:** Temperatura e Umidade Relativa do ar.
-  * **BMP280:** Pressão Atmosférica e Temperatura secundária.
-
-### 🔌 Esquema de ligação (Pinout)
-| Componente | Pino do Sensor | Pino no ESP32 | Observação |
-| :--- | :--- | :--- | :--- |
-| **DHT22** | VCC / GND | 3V3 / GND | Utilizar resistor pull-up de 10kΩ no pino de dados |
-| | DATA | GPIO 4 | |
-| **BMP280** | VCC / GND | 3V3 / GND | Comunicação via barramento I2C |
-| | SCL | GPIO 22 | SCL Padrão do ESP32 |
-| | SDA | GPIO 21 | SDA Padrão do ESP32 |
-
 ## 🚀 Roadmap e futuras implementações
 - [x] Leitura base de temperatura, umidade e pressão atmosférica.
 - [x] Processamento na borda: Cálculo matemático do ponto de orvalho por meio da equação de Magnus-Tetens.
@@ -41,4 +26,12 @@ Os dados coletados e processados por esta estação têm aplicação direta em o
 - [ ] **Integração de dados:** Estruturação de pipelines (ex: Python) para análise espacial do microclima e integração com ferramentas GIS.
 - [ ] **Alimentação autônoma:** Implementação de painel solar com gerenciador de carga (TP4056) para operação ininterrupta no campo.
 
+## ⚖️ Licença e direitos autorais
+**© 2026 Douglas Mardegan Colodete. Todos os direitos reservados.**
+
+Este projeto é **proprietário**. O material aqui disponibilizado (documentação, esquemáticos, lógicas de funcionamento e demonstrações visuais) tem como único objetivo a apresentação técnica para portfólio profissional. 
+
+É **estritamente proibida** a cópia, reprodução, distribuição, modificação ou utilização (comercial ou pessoal) de qualquer parte deste projeto, hardware ou firmware sem a autorização prévia e expressa por escrito do autor. 
+
+> *Nota: Por se tratar de propriedade intelectual protegida, o código-fonte integral não está disponível para clonagem pública.*
 
