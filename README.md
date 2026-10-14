@@ -1,4 +1,4 @@
-# 🌦️ ClimaField: Estação metereológica IoT 
+# ClimaField: Estação metereológica IoT 
 
 [![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](#)
 [![Hardware](https://img.shields.io/badge/Hardware-ESP32-blue)](#)
@@ -20,7 +20,7 @@ Os dados coletados e processados por esta estação têm aplicação direta em o
 
 ## ⚙️ Arquitetura e hardware
 * **Microcontrolador:** ESP32 (Permite futura integração IoT via Wi-Fi/Bluetooth)
-* **Sensores Atuais:**
+* **Sensores atuais:**
   * **DHT22:** Temperatura e Umidade Relativa do ar.
   * **BMP280:** Pressão Atmosférica e Temperatura secundária.
 
