@@ -9,7 +9,7 @@
 [English Version](README.en.md) | Versão em Português
 
 ## 📌 Sobre o projeto
-O **ClimaField** é uma estação meteorológica de baixo custo e alta precisão, desenvolvida para o monitoramento de microclimas agrícolas na borda da lavoura. Construído sobre a plataforma ESP32 (C++), o projeto não apenas realiza a leitura de sensores, mas processa as informações localmente (*Edge Computing*) para entregar métricas prontas para a tomada de decisão no campo.
+O **ClimaField** é uma estação meteorológica de baixo custo e alta precisão. Construído sobre a plataforma ESP32 (C++), o projeto não apenas realiza a leitura de sensores, mas processa as informações localmente (*Edge Computing*) para entregar métricas prontas para a tomada de decisão no campo.
 
 A união da engenharia eletrônica com a ciência agronômica permite que o equipamento atue como uma ferramenta crítica para a agricultura de precisão, fornecendo dados vitais para o manejo hídrico e para a segurança e eficácia das operações de campo.
 
