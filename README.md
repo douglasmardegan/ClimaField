@@ -4,6 +4,7 @@
 [![Hardware](https://img.shields.io/badge/Hardware-ESP32-blue)](#)
 [![Área](https://img.shields.io/badge/Foco-Agricultura%20de%20Precis%C3%A3o-green)](#)
 [![Linguagem](https://img.shields.io/badge/Linguagem-C++-orange)](#)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-Propriet%C3%A1ria-red)](#)
 
 [English Version](README.en.md) | Versão em Português
 
